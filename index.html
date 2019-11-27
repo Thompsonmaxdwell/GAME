@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>quessing game</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/font/font/fontawsome/css/all.css">
+
+</head>
+<body>
+    <!-- HEADER  -->
+    <div class="box-modal">
+         <div class="box-content">
+                <div class="modal-header">
+                    <span class="close-btn">&times;</span>
+                    <h1><i>guessing</i> game</h1>
+                
+                </div>  
+                <p class="box-text-alert">game Over <i>!!!</i> </p>
+                <section class="box-footer">
+                        <div class="facebook">
+                            <a href="Facebook.com"><i class="fab fa-facebook-f"></i> Share on Facebook</a>
+                        </div>
+                    <p>Develop by Thompsom Maxdwell</p>
+                </section>
+         </div>
+    
+      </div>
+      <button class="modal-btn">Click me</button>
+<main class="main">
+
+        <div class="quess-container">
+                <div class="number-to-guess-wrapper">
+                    <div class="number-to-guess-content">
+                        <h1><i>guessing</i> game</h1>
+                        <p>We have selected a random number between 1 and 100. See if you can guess it in 10 turns or fewer. We'll tell you if your guess was too high or too low.</p>
+                    </div>
+                </div>
+        </div>
+        <div class="quess-content">
+                <!-- quessing-value-wrappr styling input -->
+            <div class="quessing-value-wrapper">
+                <div class="guess-value-in-input">
+                    <form action="">
+                        <input class="Value" type="text" placeholder="Enter the Quess value">
+                        <button id="btn-color" class="btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="input-output-wrapper">
+            <div class="input-out">
+                     <div>
+                         <h3 class="previous-guesss">previous guesss:</h3>
+                     </div>
+                    <div>
+                        <h3 class="congratulation"></h3>
+                    </div>
+                    <div>
+                        <h3 class="error"></h3>
+                    </div>
+                    <div>
+                        <h3  class="too-high"></h3>
+                    </div>
+                    <div>
+                        <h3 class="too-low"></h3>
+                    </div>
+                    
+            </div>
+            <div class="restart">
+                    <br>
+                   <form action="">
+                        <button id="btn-color" class="restart">Restart</button>
+                   </form>
+                </div>
+        </div>
+        
+            <!-- quessing-value-wrappr stylin end here  -->
+           
+
+</main>
+<div class="game-over">
+    
+</div>
+<footer>
+    <div class="footer-content">
+        <p>Development by Thompson</p>
+    </div>
+</footer>
+<script src="./assets/js/index.js"></script>
+</body>
+</html>
